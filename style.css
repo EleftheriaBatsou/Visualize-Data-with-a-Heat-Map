@@ -1,0 +1,36 @@
+body {
+ background-color:lightgray;
+ text-align: center;
+}
+h1, h3, p{
+  text-align:center;
+}
+
+.graph {
+  margin: 0 auto;
+  background-color: white; 
+}
+
+.tooltip {
+  background-color: lightsalmon;
+  border: 1px solid black;
+  width: 100px;
+  opacity: 0;
+  color: black;
+  position: absolute;
+}
+
+
+/*
+ * Footer
+ */
+a:link    {color:orangered;  text-decoration:none}
+a:visited {color:orangered; text-decoration:none}
+a:hover   {color:red; text-decoration:underline}
+
+.tableFooter{
+  margin-top: 15px;
+}
+.footerSvg{
+  width: 32px;
+}
